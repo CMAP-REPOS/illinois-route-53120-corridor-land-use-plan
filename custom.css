@@ -1,0 +1,74 @@
+@import url(//fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,700,300);
+
+body {
+  background-color: #EEEEEE;
+  color: #fff;
+}
+#page {
+  color: #555;
+}
+select, input, textarea,
+.project-status,
+.project-location,
+.project-description,
+.event-list,
+.project-contact-info {
+  font-family: 'Roboto Condensed', Arial, sans-serif;
+}
+a:hover, a:active { outline: none; }
+a, a:active, a:visited { color: #69af4d; }
+a:hover { color: #a3ce62; }
+
+.site-header {
+  background-color: #fff;
+  color: #555;
+}
+.site-title {
+  background: url(53120logo.gif) 0 0 no-repeat scroll;
+  background-size: 100%;
+  width: 100%;
+  padding-top: 18.625%;
+  height: 0;
+  text-indent: -9999px;
+}
+.ie8 .site-title { 
+  background: url(53120logo-400x74.png) 0 0 no-repeat scroll; 
+  width: 400px; 
+  height: 74px; 
+  padding-top: 0;
+}
+.project-location {
+  font-size: 1.75em;
+  line-height: 2.5;
+  color: #999;
+}
+
+.event-description a, .event-description a:active, .event-description a:visited { color: PaleGreen; }
+.event-description a:hover { color: #fff; }
+
+.project-timeline,
+.event:after,
+li.event:last-child:before,
+.event-list:before {
+  background-color: #69af4d;
+}
+.site-colophon {
+  background-color: #a3ce62;
+  color: #fff;
+}
+.powered-by { color: #fff; }
+
+.software-phase-notice,
+a.software-help-link,
+.project-status {
+  display: none;
+}
+
+@media only screen and (min-width: 44em) {
+  #page {
+    font-size: 1em;
+  }
+  .container {
+    max-width: 45em;
+  }
+}
